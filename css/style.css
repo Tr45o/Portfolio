@@ -1,0 +1,305 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    center center/cover no-repeat;
+    min-height: 100vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+}
+
+link[rel="icon"] {
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 1px;
+    padding: 6px 12px;
+    color: #727272;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+    background-color: grey;
+}
+
+.name {
+    padding: 58px 0px 0px 0px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.myname {
+    font-size: 30px;
+}
+
+.p1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.img1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.img1 img {
+    width: 300px;
+    height: auto;
+}
+
+.div1 {
+    margin: 0px 20px 0px 20px;
+}
+
+.p2 {
+    color: #727272;
+    margin: 40px 0px 40px 0px;
+}
+
+.p3 {
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+}
+
+.p10 {
+    font-size: 30px;
+    margin: 40px 0px 40px 0px;
+}
+
+.btn11 {
+    margin: 30px 0px 60px 0px;
+}
+
+.btn11 a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.graph {
+    align-items: center;
+}
+
+.skill-label {
+    margin-bottom: 20px;
+}
+
+.bar-container {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.bar {
+    height: 100%;
+    background-color: #727272;
+}
+
+.div3 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+    padding: 20px;
+    font-size: 20px;
+    width:100%;
+}
+
+.div3 p {
+    margin: 50px 0px 50px 0px;
+}
+
+.btn1 {
+    padding: 10px 40px;
+    margin: 20px 0px 30px 0px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: #727273;
+}
+
+.p12 {
+    margin: 40px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.div4 {
+    margin: 0px 0px 40px 0px;
+}
+
+.div4 p {
+    color: #727272;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0px 0px 20px 0px;
+}
+
+.fa {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+.fa-fw {
+    width: 20px;
+}
+
+.w3-text-white {
+    color: white;
+}
+
+.w3-xxlarge {
+    font-size: 34px;
+}
+
+.w3-margin-right {
+    margin-right: 25px;
+}
+
+.p15 {
+    margin: 0px 0px 10px 0px;
+    color: #727272;
+}
+
+input {
+    padding: 10px;
+    margin: 0px 0px 10px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #727272;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn2 {
+    padding: 10px 40px;
+    margin: 0px 0px 80px 0px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: #727272;
+}
+
+.div6 {
+    text-align: center;
+    margin: 30px 10px 90px 0px;
+}
+
+.imgs {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 5px solid #fefae0;
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    transition-duration: 1s;
+}
+
+.imgs:hover {
+    border: 5px solid #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: none;
+    filter: none;
+}
+
+.container1 {
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .name {
+        font-size: 50px;
+    }
+    .myname {
+        font-size: 30px;
+    }
+    .p1 {
+        padding: 40px;
+    }
+    .img1 {
+        margin: 40px auto;
+    }
+    .img1 img {
+        max-width: 80%;
+    }
+    .div1 {
+        margin: 0px 30px 0px 30px;
+        max-width: 100%;
+    }
+    .div3 p {
+        margin: 50px 50px 50px 50px;
+    }
+    .div3 {
+        background-color: white;
+        color: black;
+        text-align: center;
+        margin: 60px 0px 0px 0px;
+        padding: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .p3 {
+        font-size: 28px;
+    }
+    .p10 {
+        font-size: 28px;
+    }
+    .p12 {
+        font-size: 28px;
+    }
+    .div4 {
+        margin: 0px 0px 0px 0px;
+        max-width: 100%;
+    }
+    .imgs {
+        width: 380px;
+        height: 250px;
+    }
+    .graph {
+        justify-content: space-between;
